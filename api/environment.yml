@@ -1,0 +1,10 @@
+name: gis-api
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - fastapi>=0.110.0
+      - mamba>=0.11.2
+      - uvicorn>=0.21.1
